@@ -36,7 +36,7 @@ function App() {
     const previousBookmark = JSON.parse(localStorage.getItem("bookmarks"));
 
     if (previousBookmark && previousBookmark.includes(title)) {
-      toast.warn("Already Bookmarked This Blog!");
+      toast.warn("You Have Already Bookmarked This Blog!");
     }
 
     localStorage.setItem("bookmarks", JSON.stringify([...bookmarkInfo, title]));

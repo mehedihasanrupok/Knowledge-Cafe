@@ -38,11 +38,11 @@ const Blogs = () => {
                             The <span className='bg-light px-2 rounded'>useEffect</span> hook is a versatile tool that allows you to perform a variety of tasks beyond just fetching data. It is often used for side-effects such as setting up subscriptions, manually changing the DOM, or interacting with external APIs. This is useful for tasks that need to be done on every render, such as fetching data from an API or setting up event listeners. While fetching data from an API is one common use case for <span className='bg-light px-2 rounded'>useEffect,</span> it can also be used for other purposes such as:
                         </p>
                         <ol>
-                            <li>Updating the document title</li>
-                            <li>Updating local storage</li>
-                            <li>Timers and intervals</li>
-                            <li>Animations</li>
-                            <li>Event listeners</li>
+                            <ul>Updating the document title</ul>
+                            <ul>Updating local storage</ul>
+                            <ul>Timers and intervals</ul>
+                            <ul>Animations</ul>
+                            <ul>Event listeners</ul>
                         </ol>
                     </Accordion.Body>
                 </Accordion.Item>
