@@ -9,7 +9,7 @@ const Blogs = () => {
         <div>
             <Accordion>
                 <Accordion.Item eventKey="0">
-                    <Accordion.Header>Props vs state</Accordion.Header>
+                    <Accordion.Header>Difference between Props vs state</Accordion.Header>
                     <Accordion.Body>
                         Props and state are both used for storing data in React components, but they serve different purposes.
                         <br /> <br />
