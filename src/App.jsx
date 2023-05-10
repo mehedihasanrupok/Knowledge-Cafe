@@ -5,6 +5,7 @@ import Header from './componenets/Header/Header'
 import Home from './componenets/Home/Home'
 import 'react-toastify/dist/ReactToastify.css';
 import Sidebar from './componenets/Sidebar/Sidebar';
+import Blogs from './componenets/Blogs/Blogs';
 
 
 
@@ -54,6 +55,10 @@ function App() {
           <Sidebar readTime={readTime} bookmarkInfo={bookmarkInfo}></Sidebar>
         </div>
       </div>
+      <div>
+        <Blogs></Blogs>
+      </div>
+      <ToastContainer></ToastContainer>
     </div>
   )
 }
