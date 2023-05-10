@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './SingleBlog.css'
 import { BsBookmark, BsBookmarkFill } from 'react-icons/bs';
 

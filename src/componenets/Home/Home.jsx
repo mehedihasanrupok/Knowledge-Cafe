@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Home.css'
 import SingleBlog from '../SingleBlog/SingleBlog';
 
