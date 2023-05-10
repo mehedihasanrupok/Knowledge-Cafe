@@ -1,5 +1,12 @@
-:root {
-  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500;600;700&display=swap');
+
+* {
+    font-family: 'Exo 2', sans-serif;
+    color: #111111;
+}
+ 
+ /* :root {
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; 
   line-height: 1.5;
   font-weight: 400;
 
@@ -66,4 +73,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+}  */

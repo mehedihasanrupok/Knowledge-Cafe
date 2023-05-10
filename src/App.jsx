@@ -4,6 +4,7 @@ import './App.css'
 import Header from './componenets/Header/Header'
 import Home from './componenets/Home/Home'
 import 'react-toastify/dist/ReactToastify.css';
+import Sidebar from './componenets/Sidebar/Sidebar';
 
 
 
@@ -31,7 +32,7 @@ function App() {
 
   const handleBookmark = (title) => {
     const previousBookmark = JSON.parse(localStorage.getItem("bookmarks"));
-    
+
     if (previousBookmark && previousBookmark.includes(title)) {
       toast.warn("Already Bookmarked This Blog!");
     }
@@ -48,6 +49,9 @@ function App() {
       <div className='main row my-4'>
         <div className='home-container col-md-8'>
           <Home handleReadTime={handleReadTime} handleBookmark={handleBookmark}></Home>
+        </div>
+        <div className='side-cart col-md-4'>
+          <Sidebar readTime={readTime} bookmarkInfo={bookmarkInfo}></Sidebar>
         </div>
       </div>
     </div>
