@@ -6,6 +6,7 @@ import Home from './componenets/Home/Home'
 import 'react-toastify/dist/ReactToastify.css';
 import Sidebar from './componenets/Sidebar/Sidebar';
 import Blogs from './componenets/Blogs/Blogs';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 

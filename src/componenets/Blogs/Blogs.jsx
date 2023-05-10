@@ -1,5 +1,7 @@
 import React from 'react';
 import './Blogs.css'
+// import Accordion from 'react-bootstrap/Accordion';
+
 import { Accordion } from 'react-bootstrap';
 
 const Blogs = () => {
